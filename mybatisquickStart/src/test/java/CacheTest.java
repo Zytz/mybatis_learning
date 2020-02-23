@@ -26,7 +26,7 @@ public class CacheTest {
     @Before
     public void befor() throws IOException {
         InputStream resourceAsStream = Resources.getResourceAsStream("sqlMapConfig.xml");
-         sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);
+        sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);
         sqlSession = sqlSessionFactory.openSession();
         userMapper = sqlSession.getMapper(UserMapper.class);
 
@@ -37,7 +37,7 @@ public class CacheTest {
     public void testFirstLevelCache() {
         User userById = userMapper.findUserById(1);
         userById.setUsername("update___");
-        userById.setId(1);
+        userById.setId(2);
         userMapper.updateUser(userById);
         sqlSession.commit();
 
@@ -46,6 +46,7 @@ public class CacheTest {
 
         System.out.println(userById == userById1);
     }
+
     @Test
     public void testSecondLevelCache() {
         SqlSession sqlSession = sqlSessionFactory.openSession();
@@ -61,8 +62,25 @@ public class CacheTest {
         sqlSession.close();//清空一级缓存
 
         User userById1 = mapper1.findUserById(1);
-
+        //cache hit ratio 到了0.5 二级缓存生效
+        //结果返回false,二级缓存的不是对象，是数据，重新组装对象返回
         System.out.println(userById == userById1);
+
+
+        User user = new User();
+        user.setId(1);
+        user.setUsername("ssss1");
+        mapper2.updateUser(user);
+        //提交事务之后，二级缓存会失效
+        sqlSession2.commit();
+        sqlSession2.close();
+
+        User userById2 = mapper1.findUserById(1);
+
+        System.out.println(userById2);
+
+        System.out.println(userById2 == userById);
+
 
     }
 }

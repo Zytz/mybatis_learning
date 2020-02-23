@@ -145,8 +145,8 @@ public class MybatisTest {
     @Test
     public void updateUser() {
         User user = new User();
-        user.setId(4);
-        user.setUsername("update annotionTest");
+        user.setId(1);
+        user.setUsername("update test");
         userMapper.updateUser(user);
 
     }
