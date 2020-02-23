@@ -4,14 +4,15 @@
 
 
 <mapper namespace="com.john.mapper.UserMapper">
-    <resultMap id="userMap" type="com.john.pojo.User">
-        <result property="id" column="uid"/>
-        <result property="username" column="username"/>
-        <collection property="orderList" ofType="com.john.pojo.Order">
-            <result property="id" column="id"/>
-            <result property="orderName" column="order_name"/>
-        </collection>
-    </resultMap>
+    <!--<resultMap id="userMap" type="com.john.pojo.User">-->
+        <!--<result property="id" column="uid"/>-->
+        <!--<result property="username" column="username"/>-->
+        <!--<collection property="orderList" ofType="com.john.pojo.Order">-->
+            <!--<result property="id" column="id"/>-->
+            <!--<result property="orderName" column="order_name"/>-->
+        <!--</collection>-->
+    <!--</resultMap>-->
+    <!--<cache type="org.mybatis.caches.redis.RedisCache"/>-->
 
     <!--namespace ： 名称空间：与Id组成sql的唯一标识
         resultType: 报名返回值类型

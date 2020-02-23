@@ -11,6 +11,7 @@ import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.apache.ibatis.cache.impl.PerpetualCache;
+import org.mybatis.caches.redis.RedisCache;
 
 import java.util.List;
 
@@ -19,7 +20,7 @@ import java.util.List;
  * @date:2020/02/23
  * @description:
  */
-@CacheNamespace(implementation = PerpetualCache.class) //开启二级缓存
+@CacheNamespace(implementation = RedisCache.class) //开启二级缓存
 public interface UserMapper {
     //查询所有用户、同时查询每个用户的订单
     @Results({@Result(property = "id", column = "id"),
