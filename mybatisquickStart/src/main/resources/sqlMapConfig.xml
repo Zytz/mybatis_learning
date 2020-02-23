@@ -8,7 +8,13 @@
     <!--默认开启-->
     <setting name="cacheEnabled" value="true"/>
 
+
 </settings>
+    <plugins>
+        <plugin interceptor="com.john.plugins.MyPlugins">
+            <property name="name" value="john"/>
+        </plugin>
+    </plugins>
     <environments default="dev">
         <environment id="dev">
             <!--事务管理-->

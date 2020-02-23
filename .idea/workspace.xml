@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c8cea46-d0ca-400a-bef5-06abb9586121" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/plugins/MyPlugins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatisquickStart/src/test/java/PluginsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisquickStart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisquickStart/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisquickStart/src/main/resources/com/john/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisquickStart/src/main/resources/com/john/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisquickStart/target/classes/com/john/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisquickStart/target/classes/com/john/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisquickStart/src/main/resources/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisquickStart/src/main/resources/sqlMapConfig.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="379">
+              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,61 +36,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/resources/com/john/mapper/UserMapper.xml">
+        <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/plugins/MyPlugins.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2-sources.jar!/org/mybatis/caches/redis/DummyReadWriteLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-183">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2-sources.jar!/org/mybatis/caches/redis/RedisConfigurationBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="48" column="96" selection-start-line="48" selection-start-column="96" selection-end-line="48" selection-end-column="96" />
+            <state relative-caret-position="143">
+              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
               <folding>
-                <element signature="e#1778#1779#0" expanded="true" />
-                <element signature="e#1800#1801#0" expanded="true" />
-                <element signature="e#1965#1966#0" expanded="true" />
-                <element signature="e#2026#2027#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+                <element signature="e#1306#1307#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/resources/com/john/mapper/OrderMapper.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/plugin/Plugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="160">
+              <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2-sources.jar!/org/mybatis/caches/redis/RedisConfig.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/plugin/Invocation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="224">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2-sources.jar!/org/mybatis/caches/redis/RedisCallback.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/executor/statement/StatementHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="107">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/resources/sqlMapConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/resources/redis.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/resources/com/john/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -98,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/test/java/CacheTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-308">
+            <state relative-caret-position="-616">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,19 +116,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
+        <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/test/java/PluginsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="1306" column="23" selection-start-line="1306" selection-start-column="23" selection-end-line="1306" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2-sources.jar!/org/mybatis/caches/redis/RedisCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="214">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -182,13 +181,16 @@
         <option value="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/mapper/OrderMapper.java" />
         <option value="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/mapper/RoleMapper.java" />
         <option value="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/pojo/Role.java" />
-        <option value="$PROJECT_DIR$/mybatisquickStart/src/main/resources/sqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/pojo/User.java" />
         <option value="$PROJECT_DIR$/mybatisquickStart/src/test/java/MybatisTest.java" />
         <option value="$PROJECT_DIR$/mybatisquickStart/src/test/java/CacheTest.java" />
         <option value="$PROJECT_DIR$/mybatisquickStart/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisquickStart/src/main/resources/redis.properties" />
         <option value="$PROJECT_DIR$/mybatisquickStart/src/main/resources/com/john/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/mybatisquickStart/src/test/java/PluginsTest.java" />
+        <option value="$PROJECT_DIR$/mybatisquickStart/src/main/resources/sqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/plugins/MyPlugins.java" />
       </list>
     </option>
   </component>
@@ -234,7 +236,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="261" />
+    <option name="y" value="70" />
     <option name="width" value="1440" />
     <option name="height" value="830" />
   </component>
@@ -360,6 +363,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="john" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisquickStart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="john" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -426,7 +439,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582468478660" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582470487956" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -540,20 +553,11 @@
       <workItem from="1582358413144" duration="15982000" />
       <workItem from="1582378435432" duration="779000" />
       <workItem from="1582379258080" duration="18163000" />
-      <workItem from="1582466311327" duration="2010000" />
+      <workItem from="1582466311327" duration="4148000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CacheTest_testSecondLevelCache - 2020.02.23 at 21h 13m 57s.xml">
-      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CacheTest_testFirstLevelCache - 2020.02.23 at 21h 14m 09s.xml">
-      <configuration name="CacheTest.testFirstLevelCache" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CacheTest_testSecondLevelCache - 2020.02.23 at 21h 17m 02s.xml">
-      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CacheTest_testSecondLevelCache - 2020.02.23 at 21h 17m 36s.xml">
       <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
     </history-entry>
@@ -575,15 +579,24 @@
     <history-entry file="CacheTest_testSecondLevelCache - 2020.02.23 at 22h 28m 38s.xml">
       <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CacheTest_testSecondLevelCache - 2020.02.23 at 22h 34m 48s.xml">
+      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheTest_testSecondLevelCache - 2020.02.23 at 23h 01m 44s.xml">
+      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheTest_testSecondLevelCache - 2020.02.23 at 23h 02m 51s.xml">
+      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45859000" />
+    <option name="totallyTimeSpent" value="47997000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="830" extended-state="6" />
+    <frame x="261" y="70" width="1440" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.32546496" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992928" weight="0.32546496" />
       <window_info id="Structure" order="1" sideWeight="0.5007072" side_tool="true" weight="0.3211731" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -593,13 +606,13 @@
       <window_info id="Alibaba Cloud Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15718158" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.040650405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1910569" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.040650405" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5934959" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -667,71 +680,22 @@
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/plugins/MyPlugins.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/plugins/MyPlugins.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/classes/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/john/dao/Impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/DefaultSqlsession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1960#3168#0" expanded="true" />
-            <element signature="e#3167#3168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SimpleExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/pojo/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/utils/GenericTokenParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
@@ -929,13 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/resources/sqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/pojo/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1065,30 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2-sources.jar!/org/mybatis/caches/redis/RedisCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/test/java/CacheTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/resources/com/john/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/resources/com/john/mapper/OrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1096,13 +1029,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2-sources.jar!/org/mybatis/caches/redis/RedisCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/resources/com/john/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="379">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/executor/statement/StatementHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/test/java/PluginsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/resources/sqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/test/java/CacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-616">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/plugins/MyPlugins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1306#1307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/plugin/Invocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/plugin/Plugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
         </state>
       </provider>
     </entry>

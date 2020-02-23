@@ -10,7 +10,6 @@ import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
-import org.apache.ibatis.cache.impl.PerpetualCache;
 import org.mybatis.caches.redis.RedisCache;
 
 import java.util.List;
