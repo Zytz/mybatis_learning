@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
 <configuration>
+<settings>
+    <setting name="logImpl" value="STDOUT_LOGGING"/>
+    <!--默认开启-->
+    <setting name="cacheEnabled" value="true"/>
+
+</settings>
     <environments default="dev">
         <environment id="dev">
             <!--事务管理-->
@@ -20,7 +27,9 @@
 
     </environments>
     <mappers>
-        <mapper resource="UserMapper.xml"/>
-        <mapper resource="OrderMapper.xml"/>
+        <!--<mapper resource="UserMapper.xml"/>-->
+        <!--<mapper resource="OrderMapper.xml"/>-->
+        <!--使用package这种扫包方式，必须吧文件件的目录名和文件mapper全限定名保持一致-->
+        <package name="com.john.mapper"/>
     </mappers>
 </configuration>

@@ -7,15 +7,16 @@ package com.john.pojo;
  */
 public class Order {
     private Integer id;
+
     private String orderName;
     private User user;
+
 
     @Override
     public String toString() {
         return "Order{" +
                 "id=" + id +
                 ", orderName='" + orderName + '\'' +
-                ", user=" + user +
                 '}';
     }
 

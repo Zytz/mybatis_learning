@@ -1,6 +1,12 @@
 package com.john.mapper;
 
 import com.john.pojo.Order;
+import com.john.pojo.User;
+import org.apache.ibatis.annotations.One;
+import org.apache.ibatis.annotations.Property;
+import org.apache.ibatis.annotations.Result;
+import org.apache.ibatis.annotations.Results;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
@@ -10,7 +16,21 @@ import java.util.List;
  * @description:
  */
 public interface OrderMapper {
+//
+//    List<Order> findAll();
 
-    List<Order> findAll();
+    @Results({
+            @Result(property = "id", column = "id"),
+            @Result(property = "orderName", column = "order_name"),
+            @Result(property = "user", column = "uid", javaType = User.class, one = @One(select = "com.john.mapper.UserMapper.findUserById"))
+    })
+    @Select("select * from orders")
+    public List<Order> findOrderAndUser();
+
+    @Results({@Result(property = "id", column = "id"),
+            @Result(property = "orderName", column = "order_name")})
+    @Select("select * from orders where uid=#{uid}")
+    public List<Order> findOrderByUid(Integer uid);
+
 
 }

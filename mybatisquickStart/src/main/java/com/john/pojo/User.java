@@ -13,13 +13,24 @@ public class User {
     private String username;
     private List<Order> orderList = new ArrayList();
 
+    private List<Role> roles = new ArrayList<>();
+
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", orderList=" + orderList +
+                ", roles=" + roles +
                 '}';
+    }
+
+    public List<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(List<Role> roles) {
+        this.roles = roles;
     }
 
     public List<Order> getOrderList() {
