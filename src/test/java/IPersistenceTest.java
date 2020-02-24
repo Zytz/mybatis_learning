@@ -1,6 +1,6 @@
 import com.john.dao.IUserDao;
 import com.john.io.Resources;
-import com.john.pojo.User;
+import com.john.builder.User;
 import com.john.sqlSession.SqlSession;
 import com.john.sqlSession.SqlSessionFactory;
 import com.john.sqlSession.SqlSessionFactoryBuilder;

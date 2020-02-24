@@ -1,6 +1,6 @@
 package com.john.mapper;
 
-import com.john.pojo.User;
+import com.john.builder.User;
 import org.apache.ibatis.annotations.CacheNamespace;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;

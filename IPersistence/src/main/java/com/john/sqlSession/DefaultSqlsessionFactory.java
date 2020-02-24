@@ -1,6 +1,6 @@
 package com.john.sqlSession;
 
-import com.john.pojo.Configuration;
+import com.john.builder.Configuration;
 
 /**
  * @author:wenwei

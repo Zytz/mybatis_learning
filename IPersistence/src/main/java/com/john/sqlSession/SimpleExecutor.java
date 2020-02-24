@@ -1,8 +1,8 @@
 package com.john.sqlSession;
 
 import com.john.config.BoundSql;
-import com.john.pojo.Configuration;
-import com.john.pojo.MapperStatement;
+import com.john.builder.Configuration;
+import com.john.builder.MapperStatement;
 import com.john.utils.GenericTokenParser;
 import com.john.utils.ParameterMapping;
 import com.john.utils.ParameterMappingTokenHandler;

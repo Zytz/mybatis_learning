@@ -1,6 +1,6 @@
 package com.john.dao;
 
-import com.john.pojo.User;
+import com.john.builder.User;
 
 import java.util.List;
 

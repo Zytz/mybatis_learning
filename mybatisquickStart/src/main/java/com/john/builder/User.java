@@ -1,4 +1,4 @@
-package com.john.pojo;
+package com.john.builder;
 
 import java.io.Serializable;
 import java.util.ArrayList;

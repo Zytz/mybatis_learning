@@ -1,14 +1,12 @@
 package com.john.config;
 
 import com.john.io.Resources;
-import com.john.pojo.Configuration;
+import com.john.builder.Configuration;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
-
-import javax.xml.parsers.SAXParser;
 
 import java.beans.PropertyVetoException;
 import java.io.InputStream;

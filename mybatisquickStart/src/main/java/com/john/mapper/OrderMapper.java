@@ -1,9 +1,8 @@
 package com.john.mapper;
 
-import com.john.pojo.Order;
-import com.john.pojo.User;
+import com.john.builder.Order;
+import com.john.builder.User;
 import org.apache.ibatis.annotations.One;
-import org.apache.ibatis.annotations.Property;
 import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;

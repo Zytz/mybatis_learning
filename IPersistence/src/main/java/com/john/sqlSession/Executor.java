@@ -1,7 +1,7 @@
 package com.john.sqlSession;
 
-import com.john.pojo.Configuration;
-import com.john.pojo.MapperStatement;
+import com.john.builder.Configuration;
+import com.john.builder.MapperStatement;
 
 import java.beans.IntrospectionException;
 import java.lang.reflect.InvocationTargetException;

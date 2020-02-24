@@ -1,7 +1,7 @@
 package com.john.sqlSession;
 
 import com.john.config.XmlConfigBuilder;
-import com.john.pojo.Configuration;
+import com.john.builder.Configuration;
 import org.dom4j.DocumentException;
 
 import java.beans.PropertyVetoException;

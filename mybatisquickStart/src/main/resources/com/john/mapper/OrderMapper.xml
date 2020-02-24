@@ -4,10 +4,10 @@
 
 
 <mapper namespace="com.john.mapper.OrderMapper">
-    <resultMap id="orderMap" type="com.john.pojo.Order">
+    <resultMap id="orderMap" type="com.john.builder.Order">
         <result property="id" column="id"/>
         <result property="orderName" column="order_name"/>
-        <association property="user" javaType="com.john.pojo.User">
+        <association property="user" javaType="com.john.builder.User">
             <result property="username" column="username"/>
             <result property="id" column="uid"/>
         </association>

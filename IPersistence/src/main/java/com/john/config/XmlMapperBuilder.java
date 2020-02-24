@@ -1,7 +1,7 @@
 package com.john.config;
 
-import com.john.pojo.Configuration;
-import com.john.pojo.MapperStatement;
+import com.john.builder.Configuration;
+import com.john.builder.MapperStatement;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;

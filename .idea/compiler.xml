@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="IPersistence" />
         <module name="IPersistence_test" />
+        <module name="mybatisdesignpattern" />
         <module name="mybatisquickStart" />
       </profile>
     </annotationProcessing>
