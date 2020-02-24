@@ -14,6 +14,9 @@
         <plugin interceptor="com.john.plugins.MyPlugins">
             <property name="name" value="john"/>
         </plugin>
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+            <property name="dialect" value="mysql"/>
+        </plugin>
     </plugins>
     <environments default="dev">
         <environment id="dev">

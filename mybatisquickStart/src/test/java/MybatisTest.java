@@ -1,3 +1,5 @@
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.john.mapper.OrderMapper;
 import com.john.mapper.UserMapper;
 import com.john.pojo.Order;
@@ -193,6 +195,19 @@ public class MybatisTest {
         for (User user : userList) {
             System.out.println(user);
         }
+
+    }
+    @Test
+    public void pageTest() {
+
+        PageHelper.startPage(1,1);
+        List<User> userList = userMapper.findAll();
+        for (User user : userList) {
+            System.out.println(user);
+        }
+
+        PageInfo<User> pageInfo = new PageInfo<>(userList);
+        System.out.println(pageInfo);
 
     }
 }

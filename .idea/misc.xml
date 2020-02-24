@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/IPersistence/pom.xml" />
         <option value="$PROJECT_DIR$/mybatisquickStart/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisdesignpattern/pom.xml" />
       </list>
     </option>
   </component>

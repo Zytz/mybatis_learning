@@ -54,7 +54,7 @@ public interface UserMapper {
     @Select("select * from user") @Results({
             @Result(id = true,property = "id",column = "id"), @Result(property = "username",column = "username"), @Result(property = "password",column = "password"), @Result(property = "birthday",column = "birthday"), @Result(property = "roleList",column = "id",
             javaType = List.class,
-            many = @Many(select = "com.lagou.mapper.RoleMapper.findByUid"))
+            many = @Many(select = "com.john.mapper.RoleMapper.findByUid"))
     })
     List<User> findAllUserAndRole();
 
