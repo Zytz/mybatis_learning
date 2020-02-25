@@ -14,6 +14,16 @@ public class MapperStatement {
     private String parameterType;
 
     private String sql;
+    //sql执行乐行
+    private SqlCommandType sqlCommandType;
+
+    public SqlCommandType getSqlCommandType() {
+        return sqlCommandType;
+    }
+
+    public void setSqlCommandType(SqlCommandType sqlCommandType) {
+        this.sqlCommandType = sqlCommandType;
+    }
 
     public String getSql() {
         return sql;

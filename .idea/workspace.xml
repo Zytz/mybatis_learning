@@ -2,41 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c8cea46-d0ca-400a-bef5-06abb9586121" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/builder/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/builder/ComputerBuiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/builder/ComputerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/dynamicaproxy/JDKDynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/dynamicaproxy/John.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/dynamicaproxy/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/dynamicaproxy/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/simpleFactory/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/simpleFactory/ComputerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/simpleFactory/HpComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/simpleFactory/LenovoComputer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/builder/SqlCommandType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/config/XmlConfigBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/config/XmlConfigBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/builder/MapperStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/builder/MapperStatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/config/XmlMapperBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/config/XmlMapperBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/pojo/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/builder/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/pojo/MapperStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/builder/MapperStatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/DefaultSqlsession.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/DefaultSqlsession.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/DefaultSqlsessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/DefaultSqlsessionFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/Executor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SimpleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SimpleExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SqlSessionFactoryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SqlSessionFactoryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisdesignpattern/mybatisdesignpattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisdesignpattern/mybatisdesignpattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/mapper/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/builder/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/pojo/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/builder/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/builder/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisquickStart/src/main/resources/com/john/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisquickStart/src/main/resources/com/john/mapper/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisquickStart/src/test/java/CacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisquickStart/src/test/java/CacheTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisquickStart/src/test/java/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisquickStart/src/test/java/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SqlSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SqlSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/config/BoundSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/classes/com/john/config/BoundSql.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/config/XmlConfigBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/classes/com/john/config/XmlConfigBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/config/XmlMapperBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/classes/com/john/config/XmlMapperBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/io/Resources.class" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/classes/com/john/io/Resources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/sqlSession/DefaultSqlsession$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/classes/com/john/sqlSession/DefaultSqlsession$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/sqlSession/DefaultSqlsession.class" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/classes/com/john/sqlSession/DefaultSqlsession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/sqlSession/DefaultSqlsessionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/classes/com/john/sqlSession/DefaultSqlsessionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/sqlSession/Executor.class" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/classes/com/john/sqlSession/Executor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/sqlSession/SimpleExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/sqlSession/SqlSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/classes/com/john/sqlSession/SqlSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/sqlSession/SqlSessionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/classes/com/john/sqlSession/SqlSessionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/sqlSession/SqlSessionFactoryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/classes/com/john/sqlSession/SqlSessionFactoryBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/utils/GenericTokenParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/classes/com/john/utils/GenericTokenParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/utils/ParameterMapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/classes/com/john/utils/ParameterMapping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/utils/ParameterMappingTokenHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/classes/com/john/utils/ParameterMappingTokenHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPersistence/target/classes/com/john/utils/TokenHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/classes/com/john/utils/TokenHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/john/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/john/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/john/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/john/builder/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/IPersistenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IPersistenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/john/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/john/dao/IUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IPersistenceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IPersistenceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,119 +53,100 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/builder/ComputerBuiler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/john/dao/IUserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="247">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/IPersistenceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="853">
+              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/DefaultSqlsession.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
               <folding>
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#3185#4202#0" expanded="true" />
+                <element signature="e#4201#4202#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/dynamicaproxy/Person.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/sql/Connection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/dynamicaproxy/John.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-              <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-4680">
+              <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/dynamicaproxy/JDKDynamicProxy.java">
+        <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SimpleExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            <state relative-caret-position="220">
+              <caret line="116" column="55" selection-start-line="116" selection-start-column="55" selection-end-line="116" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/dynamicaproxy/ProxyTest.java">
+        <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/builder/Configuration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/builder/ComputerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/simpleFactory/Computer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/simpleFactory/HpComputer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="254">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/simpleFactory/ComputerFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="162">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/simpleFactory/LenovoComputer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/javax/sql/DataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding>
-                <element signature="e#201#202#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="19">
+              <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SqlSession.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -179,6 +158,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -187,6 +167,8 @@
       <find>resultObject</find>
       <find>clean</find>
       <find>update_</find>
+      <find>commit</find>
+      <find>error typ</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,27 +177,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/config/XmlMapperBuilder.java" />
-        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SqlSessionFactory.java" />
-        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/Executor.java" />
-        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/utils/TokenHandler.java" />
-        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/utils/GenericTokenParser.java" />
         <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/config/BoundSql.java" />
-        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/DefaultSqlsessionFactory.java" />
         <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SqlSessionFactoryBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/IPersistence/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/john/pojo/User.java" />
-        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SimpleExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/john/pojo/IUserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/john/Dao/IUserDao.java" />
-        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SqlSession.java" />
-        <option value="$PROJECT_DIR$/src/test/java/IPersistenceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/john/dao/IUserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/john/dao/Impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/DefaultSqlsession.java" />
         <option value="$PROJECT_DIR$/target/classes/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/UserMapper.xml" />
         <option value="$PROJECT_DIR$/mybatisquickStart/src/main/resources/OrderMapper.xml" />
         <option value="$PROJECT_DIR$/mybatisquickStart/src/main/resources/UserMapper.xml" />
         <option value="$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/pojo/Order.java" />
@@ -246,13 +216,20 @@
         <option value="$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/dynamicaproxy/ProxyTest.java" />
         <option value="$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/simpleFactory/ComputerFactory.java" />
         <option value="$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/dynamicaproxy/JDKDynamicProxy.java" />
+        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/DefaultSqlsessionFactory.java" />
+        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SqlSessionFactory.java" />
+        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SqlSession.java" />
+        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/Executor.java" />
+        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/builder/SqlCommandType.java" />
+        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/builder/MapperStatement.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/config/XmlMapperBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/john/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/DefaultSqlsession.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IPersistenceTest.java" />
+        <option value="$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SimpleExecutor.java" />
       </list>
     </option>
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="CacheTest.testFirstLevelCache" />
-    </enabled-run-configurations>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -290,11 +267,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="655" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="830" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -302,6 +277,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,25 +288,25 @@
             <path>
               <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisdesignpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="IPersistence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisdesignpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="IPersistence" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisdesignpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="IPersistence" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisdesignpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="IPersistence" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -338,7 +314,7 @@
             <path>
               <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisdesignpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="IPersistence" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -347,7 +323,7 @@
             <path>
               <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisdesignpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="IPersistence" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -357,22 +333,137 @@
             <path>
               <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisdesignpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="IPersistence" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="john" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicaproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisdesignpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="IPersistence" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="john" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="IPersistence" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="john" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlSession" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisquickStart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisquickStart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisquickStart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisquickStart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisquickStart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="john" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisquickStart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisquickStart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="john" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="john" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IPersistence_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
@@ -396,18 +487,60 @@
               <item name="pagehelper-3.7.5.jar" type="462c0819:PsiDirectoryNode" />
               <item name="pagehelper" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.4.5" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.4.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.4.5.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.4.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.4.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.4.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.4.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+              <item name="executor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.4.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.4.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IPersistence_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.4.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.4.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+              <item name="defaults" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582556403400" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582647267729" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -417,17 +550,18 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.john.config" />
-      <recent name="com.john.sqlSession" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mybatisquickStart/src/main/resources/com/john/mapper" />
+      <recent name="$PROJECT_DIR$/IPersistence/src/main/java/com/john/utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mybatisquickStart/src/main/resources" />
       <recent name="$PROJECT_DIR$/IPersistence/src/main/java/com/john/utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mybatisquickStart/src/main/resources/com/john/mapper" />
-      <recent name="$PROJECT_DIR$/IPersistence/src/main/java/com/john/utils" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.john.builder" />
+      <recent name="com.john.config" />
+      <recent name="com.john.sqlSession" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -442,20 +576,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProxyTest">
-    <configuration name="ComputerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.john.builder.ComputerTest" />
-      <module name="mybatisdesignpattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.john.builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.IPersistenceTest.deleteTest">
     <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.john.dynamicaproxy.ProxyTest" />
       <module name="mybatisdesignpattern" />
@@ -469,31 +590,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CacheTest.testFirstLevelCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisquickStart" />
+    <configuration name="IPersistenceTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IPersistence_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CacheTest" />
-      <option name="METHOD_NAME" value="testFirstLevelCache" />
+      <option name="MAIN_CLASS_NAME" value="IPersistenceTest" />
+      <option name="METHOD_NAME" value="deleteTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CacheTest.testSecondLevelCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisquickStart" />
+    <configuration name="IPersistenceTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IPersistence_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CacheTest" />
-      <option name="METHOD_NAME" value="testSecondLevelCache" />
+      <option name="MAIN_CLASS_NAME" value="IPersistenceTest" />
+      <option name="METHOD_NAME" value="insertTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.pageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisquickStart" />
+    <configuration name="IPersistenceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IPersistence_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MybatisTest" />
-      <option name="METHOD_NAME" value="pageTest" />
+      <option name="MAIN_CLASS_NAME" value="IPersistenceTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IPersistenceTest.updateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IPersistence_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IPersistenceTest" />
+      <option name="METHOD_NAME" value="updateTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -501,11 +632,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IPersistenceTest.deleteTest" />
+        <item itemvalue="JUnit.IPersistenceTest.updateTest" />
+        <item itemvalue="JUnit.IPersistenceTest.insertTest" />
+        <item itemvalue="JUnit.IPersistenceTest.test" />
         <item itemvalue="Application.ProxyTest" />
-        <item itemvalue="Application.ComputerTest" />
-        <item itemvalue="JUnit.MybatisTest.pageTest" />
-        <item itemvalue="JUnit.CacheTest.testSecondLevelCache" />
-        <item itemvalue="JUnit.CacheTest.testFirstLevelCache" />
       </list>
     </recent_temporary>
   </component>
@@ -529,46 +660,47 @@
       <workItem from="1582379258080" duration="18163000" />
       <workItem from="1582466311327" duration="5180000" />
       <workItem from="1582553752957" duration="2838000" />
+      <workItem from="1582636747949" duration="10175000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CacheTest_testSecondLevelCache - 2020.02.23 at 22h 26m 53s.xml">
-      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
+    <history-entry file="IPersistenceTest_deleteTest - 2020.02.25 at 23h 38m 32s.xml">
+      <configuration name="IPersistenceTest.deleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CacheTest_testSecondLevelCache - 2020.02.23 at 22h 28m 12s.xml">
-      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
+    <history-entry file="IPersistenceTest_insertTest - 2020.02.25 at 23h 40m 10s.xml">
+      <configuration name="IPersistenceTest.insertTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CacheTest_testSecondLevelCache - 2020.02.23 at 22h 28m 38s.xml">
-      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
+    <history-entry file="IPersistenceTest_insertTest - 2020.02.25 at 23h 43m 59s.xml">
+      <configuration name="IPersistenceTest.insertTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CacheTest_testSecondLevelCache - 2020.02.23 at 22h 34m 48s.xml">
-      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
+    <history-entry file="IPersistenceTest_updateTest - 2020.02.25 at 23h 44m 19s.xml">
+      <configuration name="IPersistenceTest.updateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CacheTest_testSecondLevelCache - 2020.02.23 at 23h 01m 44s.xml">
-      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
+    <history-entry file="IPersistenceTest_deleteTest - 2020.02.25 at 23h 45m 07s.xml">
+      <configuration name="IPersistenceTest.deleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CacheTest_testSecondLevelCache - 2020.02.23 at 23h 02m 51s.xml">
-      <configuration name="CacheTest.testSecondLevelCache" configurationId="JUnit" />
+    <history-entry file="IPersistenceTest_deleteTest - 2020.02.25 at 23h 45m 49s.xml">
+      <configuration name="IPersistenceTest.deleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_pageTest - 2020.02.23 at 23h 14m 00s.xml">
-      <configuration name="MybatisTest.pageTest" configurationId="JUnit" />
+    <history-entry file="IPersistenceTest_deleteTest - 2020.02.25 at 23h 54m 44s.xml">
+      <configuration name="IPersistenceTest.deleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_pageTest - 2020.02.23 at 23h 15m 02s.xml">
-      <configuration name="MybatisTest.pageTest" configurationId="JUnit" />
+    <history-entry file="IPersistenceTest_deleteTest - 2020.02.26 at 00h 01m 11s.xml">
+      <configuration name="IPersistenceTest.deleteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_pageTest - 2020.02.23 at 23h 15m 57s.xml">
-      <configuration name="MybatisTest.pageTest" configurationId="JUnit" />
+    <history-entry file="IPersistenceTest_insertTest - 2020.02.26 at 00h 04m 09s.xml">
+      <configuration name="IPersistenceTest.insertTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_pageTest - 2020.02.23 at 23h 16m 45s.xml">
-      <configuration name="MybatisTest.pageTest" configurationId="JUnit" />
+    <history-entry file="IPersistenceTest_insertTest - 2020.02.26 at 00h 05m 09s.xml">
+      <configuration name="IPersistenceTest.insertTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51867000" />
+    <option name="totallyTimeSpent" value="62663000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="655" y="23" width="1440" height="830" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992928" weight="0.3297568" />
@@ -581,8 +713,8 @@
       <window_info id="Alibaba Cloud Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17750677" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.1910569" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45421687" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.51566267" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -597,7 +729,7 @@
       <window_info anchor="bottom" id="Alibaba Cloud View" order="15" />
       <window_info anchor="bottom" id="Run with VisualVM" order="16" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
-      <window_info anchor="bottom" id="Messages" order="18" visible="true" weight="0.32791328" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.41807228" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -606,7 +738,7 @@
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Codota" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Alibaba Function Compute" order="8" visible="true" weight="0.045779686" />
+      <window_info anchor="right" id="Alibaba Function Compute" order="8" visible="true" weight="0.04506438" />
       <window_info anchor="right" id="Database" order="9" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
@@ -621,33 +753,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SimpleExecutor.java</url>
-          <line>62</line>
+          <line>63</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SimpleExecutor.java</url>
-          <line>41</line>
+          <line>44</line>
           <properties />
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/utils/ParameterMappingTokenHandler.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/utils/ParameterMappingTokenHandler.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/DefaultSqlsession.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/mybatisquickStart/src/test/java/CacheTest.java</url>
@@ -667,321 +781,157 @@
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SimpleExecutor.java</url>
+          <line>152</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SimpleExecutor.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/config/XmlMapperBuilder.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SimpleExecutor.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/ConnectionImpl.class</url>
+          <line>952</line>
+          <properties class="com.mysql.jdbc.ConnectionImpl" method="closeStatement">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>isPrimitive(parammeterTypeClass)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>parameterType.getClass().isPrimitive()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>content</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>parameterType.getClass() instanceof Integer</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>parameterType instanceof Integer</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>match(parameterType)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>match(parammeterTypeClass.getClass())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>match(parammeterTypeClass)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>params.getClass().n.isPrimitive()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/session/SqlSession.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/session/SqlSessionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="261" column="7" selection-start-line="261" selection-start-column="7" selection-end-line="261" selection-end-column="7" />
+        <state relative-caret-position="228">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Map.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/ConnectionImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="304" column="9" selection-start-line="304" selection-start-column="9" selection-end-line="304" selection-end-column="9" />
+        <state relative-caret-position="198">
+          <caret line="964" column="16" selection-start-line="964" selection-start-column="16" selection-end-line="964" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/session/RowBounds.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/transaction/jdbc/JdbcTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1254#1255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/mapping/BoundSql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-          <folding>
-            <element signature="e#2047#2048#0" expanded="true" />
-            <element signature="e#2067#2068#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="268">
+          <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/session/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="309" column="21" selection-start-line="309" selection-start-column="21" selection-end-line="309" selection-end-column="21" />
-          <folding>
-            <element signature="e#12835#12836#0" expanded="true" />
-            <element signature="e#12863#12864#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="287">
+          <caret line="557" column="51" selection-start-line="557" selection-start-column="51" selection-end-line="557" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/cache/CacheKey.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/executor/statement/RoutingStatementHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        <state relative-caret-position="304">
+          <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/executor/Executor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/transaction/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        <state relative-caret-position="570">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java">
+    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SqlSessionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="147" column="24" lean-forward="true" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
-          <folding>
-            <element signature="e#9268#9269#0" expanded="true" />
-            <element signature="e#9304#9305#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/executor/BaseExecutor.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="319" column="22" selection-start-line="319" selection-start-column="22" selection-end-line="319" selection-end-column="22" />
+        <state relative-caret-position="603">
+          <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/builder/Order.java">
+    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/Executor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-          </folding>
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/builder/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/builder/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/cache/impl/PerpetualCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <element signature="e#1031#1047#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1541#1542#0" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2.jar!/org/mybatis/caches/redis/DummyReadWriteLock.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2.jar!/org/mybatis/caches/redis/RedisConfigurationBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.0/jedis-2.8.0.jar!/redis/clients/jedis/Protocol.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="1306" column="23" selection-start-line="1306" selection-start-column="23" selection-end-line="1306" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2-sources.jar!/org/mybatis/caches/redis/RedisConfigurationBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="48" column="96" selection-start-line="48" selection-start-column="96" selection-end-line="48" selection-end-column="96" />
-          <folding>
-            <element signature="e#1778#1779#0" expanded="true" />
-            <element signature="e#1800#1801#0" expanded="true" />
-            <element signature="e#1965#1966#0" expanded="true" />
-            <element signature="e#2026#2027#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2-sources.jar!/org/mybatis/caches/redis/DummyReadWriteLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2-sources.jar!/org/mybatis/caches/redis/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2-sources.jar!/org/mybatis/caches/redis/RedisCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/resources/com/john/mapper/OrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2-sources.jar!/org/mybatis/caches/redis/RedisCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/resources/com/john/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/executor/statement/StatementHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/test/java/PluginsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/plugins/MyPlugins.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/plugin/Plugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/plugin/Invocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisquickStart/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/3.7.5/pagehelper-3.7.5.jar!/com/github/pagehelper/PageHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/resources/sqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/test/java/CacheTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/3.7.5/pagehelper-3.7.5.jar!/com/github/pagehelper/PageInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/main/java/com/john/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
+        <state relative-caret-position="361">
           <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -991,133 +941,336 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatisquickStart/src/test/java/MybatisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="208" column="12" selection-start-line="208" selection-start-column="12" selection-end-line="208" selection-end-column="12" />
+        <state relative-caret-position="300">
+          <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/builder/Computer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/session/SqlSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-526">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/builder/ComputerTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/executor/Executor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="276">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/simpleFactory/LenovoComputer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/executor/statement/BaseStatementHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="177">
+          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/simpleFactory/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/simpleFactory/HpComputer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/executor/statement/StatementHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-          </folding>
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/builder/ComputerBuiler.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/sql/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="258">
+          <caret line="353" column="12" selection-start-line="353" selection-start-column="12" selection-end-line="353" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/executor/statement/SimpleStatementHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/executor/SimpleExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/executor/BaseExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/session/SqlSessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="240" column="27" selection-start-line="240" selection-start-column="27" selection-end-line="240" selection-end-column="27" />
           <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#7534#7535#0" expanded="true" />
+            <element signature="e#7584#7585#0" expanded="true" />
+            <element signature="e#7769#7770#0" expanded="true" />
+            <element signature="e#7819#7820#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/dynamicaproxy/Person.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/binding/MapperMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="228" column="27" lean-forward="true" selection-start-line="228" selection-start-column="27" selection-end-line="228" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/mapping/SqlCommandType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/builder/MapperBuilderAssistant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="275" column="58" selection-start-line="275" selection-start-column="58" selection-end-line="275" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/mapping/MappedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+          <folding>
+            <element signature="e#6335#6336#0" expanded="true" />
+            <element signature="e#6366#6367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="193" column="15" lean-forward="true" selection-start-line="193" selection-start-column="15" selection-end-line="193" selection-end-column="15" />
+          <folding>
+            <element signature="e#6374#6375#0" expanded="true" />
+            <element signature="e#6419#6420#0" expanded="true" />
+            <element signature="e#7563#7564#0" expanded="true" />
+            <element signature="e#7588#7589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/builder/SqlCommandType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/dynamicaproxy/John.java">
+    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SqlSessionFactoryBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        <state relative-caret-position="247">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/org/xml/sax/EntityResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/org/dom4j/Document.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/DefaultSqlsessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/dynamicaproxy/ProxyTest.java">
+    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/config/XmlConfigBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="525">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/simpleFactory/ComputerFactory.java">
+    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/utils/GenericTokenParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="203">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisdesignpattern/src/main/java/com/john/dynamicaproxy/JDKDynamicProxy.java">
+    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/utils/ParameterMappingTokenHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        <state relative-caret-position="255">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="192" column="19" selection-start-line="192" selection-start-column="19" selection-end-line="192" selection-end-column="19" />
+          <folding>
+            <element signature="e#6075#6076#0" expanded="true" />
+            <element signature="e#6135#6136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/config/XmlMapperBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/utils/ParameterMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/builder/MapperStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Boolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1829">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="560" column="26" selection-start-line="560" selection-start-column="26" selection-end-line="560" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/john/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4680">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/builder/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/DefaultSqlsession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding>
+            <element signature="e#3185#4202#0" expanded="true" />
+            <element signature="e#4201#4202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IPersistenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPersistence/src/main/java/com/john/sqlSession/SimpleExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="116" column="55" selection-start-line="116" selection-start-column="55" selection-end-line="116" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
           </folding>
         </state>
       </provider>

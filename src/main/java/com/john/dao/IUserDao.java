@@ -12,4 +12,8 @@ import java.util.List;
 public interface IUserDao {
    public User findOne(int id, String username);
    public List<User> findList();
+
+   public Boolean insertUser(User user);
+   public Boolean updateUser(User user);
+   public Boolean deleteUserById(Integer uid);
 }

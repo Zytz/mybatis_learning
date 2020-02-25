@@ -19,8 +19,18 @@ public interface SqlSession {
     public <E> E selectOne(String statementId,Object... params) throws IllegalAccessException, ClassNotFoundException, IntrospectionException, InstantiationException, SQLException, InvocationTargetException, NoSuchFieldException;
 
 
+    public void insert(String statementId,Object...params) throws ClassNotFoundException, SQLException, IllegalAccessException, NoSuchFieldException;
+
+    public void update(String statementId,Object...params) throws ClassNotFoundException, SQLException, NoSuchFieldException, IllegalAccessException;
+
+    public void delete(String statementId,Object...params) throws ClassNotFoundException, SQLException, NoSuchFieldException, IllegalAccessException;
+
     //为Dao层接口生成代理实现类
     public <T> T getMapper(Class<?> mapperClass);
+
+    public void commit();
+
+    public void rollBack();
 
 }
 

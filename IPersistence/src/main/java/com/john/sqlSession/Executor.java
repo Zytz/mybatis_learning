@@ -16,5 +16,13 @@ import java.util.List;
 public interface Executor {
     public <E>List<E> query(Configuration configuration, MapperStatement mapperStatement,Object... params) throws SQLException, ClassNotFoundException, NoSuchFieldException, IllegalAccessException, IntrospectionException, InstantiationException, InvocationTargetException;
 
+    public void commit(Configuration configuration) throws SQLException;
 
+    public void rollBack(Configuration configuration) throws SQLException;
+
+    void insert(Configuration configuration, MapperStatement mapperStatementMap, Object[] params) throws SQLException, ClassNotFoundException, NoSuchFieldException, IllegalAccessException;
+
+    void update(Configuration configuration, MapperStatement mapperStatementMap, Object[] params) throws ClassNotFoundException, SQLException, IllegalAccessException, NoSuchFieldException;
+
+    void delete(Configuration configuration, MapperStatement mapperStatementMap, Object[] params) throws ClassNotFoundException, SQLException, IllegalAccessException, NoSuchFieldException;
 }

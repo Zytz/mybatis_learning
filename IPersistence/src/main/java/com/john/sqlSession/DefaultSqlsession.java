@@ -2,6 +2,7 @@ package com.john.sqlSession;
 
 import com.john.builder.Configuration;
 import com.john.builder.MapperStatement;
+import com.john.builder.SqlCommandType;
 
 import java.beans.IntrospectionException;
 import java.lang.reflect.InvocationHandler;
@@ -19,7 +20,7 @@ import java.util.List;
  * @description:
  */
 public class DefaultSqlsession implements SqlSession {
-   private Configuration configuration;
+    private Configuration configuration;
 
     public DefaultSqlsession(Configuration configuration) {
         this.configuration = configuration;
@@ -36,11 +37,31 @@ public class DefaultSqlsession implements SqlSession {
     public <E> E selectOne(String statementId, Object... params) throws IllegalAccessException, ClassNotFoundException, IntrospectionException, InstantiationException, SQLException, InvocationTargetException, NoSuchFieldException {
 
         List<Object> objects = selectList(statementId, params);
-        if(objects.size() == 1){
+        if (objects.size() == 1) {
             return (E) objects.get(0);
-        }else {
+        } else {
             throw new RuntimeException("查询结果为空或者返回为空");
         }
+    }
+
+    public void insert(String statementId, Object... params) throws ClassNotFoundException, SQLException, IllegalAccessException, NoSuchFieldException {
+        SimpleExecutor simpleExecutor = new SimpleExecutor();
+        MapperStatement mapperStatement = configuration.getMapperStatementMap().get(statementId);
+        simpleExecutor.insert(configuration, mapperStatement, params);
+
+    }
+
+    public void update(String statementId, Object... params) throws ClassNotFoundException, SQLException, NoSuchFieldException, IllegalAccessException {
+        SimpleExecutor simpleExecutor = new SimpleExecutor();
+        MapperStatement mapperStatement = configuration.getMapperStatementMap().get(statementId);
+        simpleExecutor.update(configuration, mapperStatement, params);
+
+    }
+
+    public void delete(String statementId, Object... params) throws ClassNotFoundException, SQLException, NoSuchFieldException, IllegalAccessException {
+        SimpleExecutor simpleExecutor = new SimpleExecutor();
+        MapperStatement mapperStatement = configuration.getMapperStatementMap().get(statementId);
+        simpleExecutor.delete(configuration, mapperStatement, params);
     }
 
     public <T> T getMapper(Class<?> mapperClass) {
@@ -60,20 +81,65 @@ public class DefaultSqlsession implements SqlSession {
                         //方法的全限定名
                         String className = method.getDeclaringClass().getName();
 
-                        String statementId = className+"."+methodName;
+                        String statementId = className + "." + methodName;
 
                         //准备参数2：params : args
                         //获取被调用方法的返回值类型
                         Type genericReturnType = method.getGenericReturnType();
                         //判断是否进行了范型参数化
-                        if(genericReturnType instanceof ParameterizedType){
-                            List<Object> objects = selectList(statementId,args);
-                            return objects;
-                        }
-                        return selectOne(statementId,args);
+                        return handleSqlCommandType(statementId, genericReturnType, args);
+
+
                     }
                 });
         return (T) proxyInstance;
 
     }
+
+
+    @Override
+    public void commit() {
+        try {
+            this.configuration.getDataSource().getConnection().commit();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void rollBack() {
+        System.out.println("rollback");
+    }
+
+
+    private Object handleSqlCommandType(String statementId, Type genericReturnType, Object[] args) throws IllegalAccessException, ClassNotFoundException, IntrospectionException, InstantiationException, SQLException, InvocationTargetException, NoSuchFieldException {
+        SqlCommandType sqlCommandType = configuration.getMapperStatementMap().get(statementId).getSqlCommandType();
+        switch (sqlCommandType) {
+            case DELETE:
+            case INSERT:
+            case UPDATE:
+                return handleUpdate(statementId, genericReturnType, args);
+            case SELECT:
+                return handleSelect(statementId, genericReturnType, args);
+            default:
+
+                throw new RuntimeException();
+        }
+
+    }
+
+    private Object handleUpdate(String statementId, Type genericReturnType, Object[] args) throws ClassNotFoundException, SQLException, IllegalAccessException, NoSuchFieldException {
+        update(statementId,args);
+        return Boolean.TRUE;
+    }
+
+    private Object handleSelect(String statementId, Type genericReturnType, Object[] args) throws IllegalAccessException, ClassNotFoundException, IntrospectionException, InstantiationException, SQLException, InvocationTargetException, NoSuchFieldException {
+        if (genericReturnType instanceof ParameterizedType) {
+            List<Object> objects = selectList(statementId, args);
+            return objects;
+        }
+
+        return selectOne(statementId, args);
+    }
+
 }
