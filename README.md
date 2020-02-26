@@ -12,7 +12,8 @@
 
 ###3、Mybatis都有哪些Executor执行器？它们之间的区别是什么？
 >- mybatis包含了4个不同的执行器(baseExecutor,抽象类，CloseExecutor（内部类）)；主要包括batchExecutor,cacheExecutor,simpleExecutor,ReuseExecutor
->- 主要区别是使用在不同的场景下,使用不同的执行器；
+>- 主要区别是使用在不同的场景下,使用不同的执行器；ReuseExecutor，BatchExecutor，他们都继承于BaseExecutor，BatchExecutor专门用于执行批量sql操作，ReuseExecutor会重用statement执行sql操作，SimpleExecutor只是简单执行sql没有什么特别的;
+batchExecutor 主要是批量处理sql的环境下
 
 ###4、简述下Mybatis的一级、二级缓存（分别从存储结构、范围、失效场景。三个方面来作答）？
 >- 一级缓存是一个hashmap,key为statementId,pramameterTypes,boundSql，rowbound，组成，value:mapperstatement；作用域sqlsession,
